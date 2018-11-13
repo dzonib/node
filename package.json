@@ -1,27 +1,23 @@
 {
-  "name": "node",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dzonib/node.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dzonib/node/issues"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   },
-  "homepage": "https://github.com/dzonib/node#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.6"
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
   }
 }
